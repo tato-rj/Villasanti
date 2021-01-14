@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="bg d-flex justify-content-center align-items-center">
+<div class="d-flex justify-content-center align-items-center h-100vh">
     <div class="text-center">
-        <h2 class="text-primary px-3 py-1 bg-white">
+        <h2 class="">
             Site em breve no ar!
         </h2>
     </div>

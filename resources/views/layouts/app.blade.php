@@ -22,13 +22,6 @@
               height: auto!important;
             } 
 
-            .bg {
-                height: 100vh; 
-                background-image: url({{asset('images/backgrounds/plant.jpg')}}); 
-                background-position: left bottom; 
-                background-size: cover;
-            }
-
             .text-primary {
                 color: #d83f87 !important;
             }
