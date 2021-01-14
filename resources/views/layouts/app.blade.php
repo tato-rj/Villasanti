@@ -122,6 +122,9 @@
 
         @yield('content')
 
+        @if(request()->has('dev'))
+            @include('layouts.footer')
+        @endif
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
