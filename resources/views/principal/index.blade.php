@@ -35,11 +35,10 @@ function moveText(id, scrollTop)
 {
 	if (! onMobile()) {
 	  let translate = -0.2*scrollTop;
-	  let opacity = 1-scrollTop/600;
 
 	  $(id).css({
 	  	transform: 'translateY('+translate+'px)',
-	  	opacity: opacity
+
 	  });
 	}
 }
