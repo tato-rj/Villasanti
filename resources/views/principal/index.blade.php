@@ -6,8 +6,12 @@
 @endpush
 
 @section('content')
-<main> 
-</main>
+
+@include('principal.lead')
+@include('principal.porque')
+{{-- @include('principal.praticas') --}}
+@include('principal.quem')
+
 @endsection
 
 @push('scripts')

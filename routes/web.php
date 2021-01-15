@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return request()->has('dev') ? view('welcome') : view('dev');
+    return request()->has('dev') ? view('principal.index') : view('dev');
 })->name('home');

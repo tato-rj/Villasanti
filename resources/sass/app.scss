@@ -1,9 +1,17 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:wght@600;900&display=swap');
 @import "~@fortawesome/fontawesome-free/css/all.min";
-
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import 'custom_bs';
+@import 'brand';
+
+.navbar .nav-item:hover {
+	background-color: $primary-color-light !important;
+}
+
+.btn {
+	border-radius: 0!important;
+	font-size: 1rem;
+}
