@@ -43,13 +43,5 @@ function moveText(id, scrollTop)
 	}
 }
 
-let $newsbar = $('#newsbar');
-axios.get($newsbar.data('url'))
-	 .then(function(response) {
-	 	console.log(response.data);
-	 })
-	 .catch(function(error) {
-	 	console.log(error);
-	 });
 </script>
 @endpush

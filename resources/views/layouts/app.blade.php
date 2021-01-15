@@ -76,18 +76,18 @@ onMobile = function() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-        function login() {
-          var pass = prompt("Para continuar, por favor entre com a sua senha");
+function login() {
+  var pass = prompt("Para continuar, por favor entre com a sua senha");
 
-          if (pass == "zelda") {
-            window.location.href = "{{url()->current()}}"+'?dev';
-          } else if (pass == '' || pass === null) {
-            return;
-          } else {
-            console.log(pass);
-            alert('Senha incorreta.');
-          }
-        }
+  if (pass == "zelda") {
+    window.location.href = "{{url()->current()}}"+'?dev';
+  } else if (pass == '' || pass === null) {
+    return;
+  } else {
+    console.log(pass);
+    alert('Senha incorreta.');
+  }
+}
 
             $(document).ready(function() {
               $('button.navbar-toggler').on('click', function () {
