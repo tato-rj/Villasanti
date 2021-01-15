@@ -1,5 +1,5 @@
 <nav class="navbar position-fixed shadow-sm w-100 z-10 bg-primary navbar-expand-lg p-0 navbar-dark">
-  <a class="navbar-brand ml-4" href="{{route('home')}}">
+  <a class="navbar-brand ml-2" href="{{route('home')}}">
       <img src="{{asset('images/brand/logo-dark.svg')}}" style="width: 172px">
   </a>
   <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -66,6 +66,10 @@
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
+onMobile = function() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 function login() {
   var pass = prompt("Para continuar, por favor entre com a sua senha");
 
