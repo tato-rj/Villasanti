@@ -1,7 +1,7 @@
 <nav class="navbar position-fixed shadow-sm w-100 z-10 bg-primary navbar-expand-lg p-0 navbar-dark">
   <a class="navbar-brand ml-2" href="{{route('home')}}">
       <img class="d-none d-sm-block" src="{{asset('images/brand/logo-dark.svg')}}" style="width: 172px">
-      <img class="d-sm-none ml-2" src="{{asset('images/brand/logo-sm-dark.svg')}}" style="width: 72px">
+      <img class="d-sm-none ml-3" src="{{asset('images/brand/logo-sm-dark.svg')}}" style="width: 72px">
   </a>
 
   @include('layouts.components.hamburger')
