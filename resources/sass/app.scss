@@ -6,6 +6,7 @@
 @import '~bootstrap/scss/bootstrap';
 @import 'custom_bs';
 @import 'brand';
+@import 'components/hamburger';
 
 .navbar .nav-item:hover {
 	background-color: $primary-color-light !important;
@@ -13,5 +14,5 @@
 
 .btn {
 	border-radius: 0!important;
-	font-size: 1rem;
+	font-size: inherit;
 }

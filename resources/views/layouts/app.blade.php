@@ -39,7 +39,7 @@
             }
 
             .btn-lg {
-                font-size: 1.2rem;
+                /*font-size: 1.2rem;*/
                 padding: .8rem 2.25rem !important;
             }
 
@@ -49,6 +49,12 @@
                 background-size: 24px 2.8px;
                 background-repeat: repeat-x;
             }
+
+.btn:focus, button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
         </style>
 
         @stack('header')
@@ -70,18 +76,24 @@ onMobile = function() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-function login() {
-  var pass = prompt("Para continuar, por favor entre com a sua senha");
+        function login() {
+          var pass = prompt("Para continuar, por favor entre com a sua senha");
 
-  if (pass == "zelda") {
-    window.location.href = "{{url()->current()}}"+'?dev';
-  } else if (pass == '' || pass === null) {
-    return;
-  } else {
-    console.log(pass);
-    alert('Senha incorreta.');
-  }
-}
+          if (pass == "zelda") {
+            window.location.href = "{{url()->current()}}"+'?dev';
+          } else if (pass == '' || pass === null) {
+            return;
+          } else {
+            console.log(pass);
+            alert('Senha incorreta.');
+          }
+        }
+
+            $(document).ready(function() {
+              $('button.navbar-toggler').on('click', function () {
+                $('.animated-icon2').toggleClass('open');
+              });
+            });
     </script>
 
     @stack('scripts')

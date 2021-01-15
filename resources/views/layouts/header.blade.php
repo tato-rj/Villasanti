@@ -2,11 +2,10 @@
   <a class="navbar-brand ml-2" href="{{route('home')}}">
       <img src="{{asset('images/brand/logo-dark.svg')}}" style="width: 172px">
   </a>
-  <button class="navbar-toggler border-0 my-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  @include('layouts.components.hamburger')
+
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link p-4" href="">Principal</a>

@@ -1,4 +1,4 @@
-<section id="lead-bg" class="h-100vh bg-align-center position-relative text-white mb-6" style="background-image: url({{asset('images/backgrounds/desk.jpg')}})">
+<section id="lead-bg" class="h-100vh bg-align-center position-relative text-white" style="background-image: url({{asset('images/backgrounds/desk.jpg')}})">
 	<div class="h-100 w-100 bg-primary opacity-8 position-absolute"></div>
 	<div class="h-100 row align-items-center position-relative no-gutters">
 		<div id="lead-text" class="col-lg-5 col-md-6 col-10 offset-lg-2 offset-md-2 offset-1 mt-4">
@@ -10,3 +10,6 @@
 		</div>
 	</div>
 </section>
+<div class="mb-6">
+@include('principal.components.news')
+</div>

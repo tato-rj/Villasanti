@@ -16901,12 +16901,75 @@ a.text-dark:focus {
   border-color: #9a641d !important;
 }
 
+.animated-icon1,
+.animated-icon2,
+.animated-icon3 {
+  width: 26px;
+  height: 14px;
+  position: relative;
+  margin: 0px;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span,
+.animated-icon2 span,
+.animated-icon3 span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.animated-icon2 span {
+  background: white;
+}
+
+.animated-icon2 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon2 span:nth-child(2),
+.animated-icon2 span:nth-child(3) {
+  top: 8px;
+}
+
+.animated-icon2 span:nth-child(4) {
+  top: 16px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
 .navbar .nav-item:hover {
   background-color: #0e3a79 !important;
 }
 
 .btn {
   border-radius: 0 !important;
-  font-size: 1rem;
+  font-size: inherit;
 }
 
