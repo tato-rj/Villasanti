@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return request()->has('dev') ? view('principal.index') : view('dev');
+	$testimonials = (new \App\Testimonials)->all();
+
+    return request()->has('dev') ? view('principal.index', compact('testimonials')) : view('dev');
 })->name('home');

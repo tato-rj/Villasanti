@@ -6,6 +6,12 @@
 
         <title>{{config('app.name')}}</title>
 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/primer.css') }}" rel="stylesheet">
 

@@ -16901,6 +16901,112 @@ a.text-dark:focus {
   border-color: #9a641d !important;
 }
 
+.swiper-container {
+  width: 326px;
+  overflow: visible;
+}
+
+.swiper-nav {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 32px auto 0;
+}
+
+.swiper-pagination {
+  position: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32px;
+}
+
+.swiper-slide:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.swiper-slide {
+  cursor: -webkit-grab;
+  cursor: grab;
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 35px 0 rgba(50, 50, 93, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  position: relative;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 8px;
+  text-align: center;
+  padding: 56px 16px 30px 16px;
+  height: initial;
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.swiper-slide:hover {
+  opacity: 1;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide::before {
+  background-image: url(/images/quote-left.svg?c7f54a63ff8e9d9cefa39582e1fac75f);
+  top: 16px;
+  left: 16px;
+  content: "";
+  position: absolute;
+  height: 32px;
+  width: 32px;
+}
+
+.swiper-slide::after {
+  background-image: url(/images/quote-right.svg?89edb69892e279ce7d42d84a7754b77f);
+  top: 16px;
+  right: 16px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.2;
+  background-color: #cd8627;
+  height: 8px;
+  width: 8px;
+  margin: 6px;
+  display: inline-block;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: #09244b;
+}
+
+.swiper-navigation-arrow {
+  box-shadow: 0 8px 35px 0 rgba(50, 50, 93, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  transition: box-shadow 0.2s ease-in-out;
+  position: initial;
+  flex: 0 0 auto;
+  margin-top: 0;
+  background-color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-size: 16px 16px;
+  cursor: pointer;
+}
+
 .animated-icon1,
 .animated-icon2,
 .animated-icon3 {
