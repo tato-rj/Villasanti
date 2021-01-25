@@ -25,5 +25,6 @@ class AppServiceProvider extends ServiceProvider
     {
         \Blade::include('components.title');
         \Blade::include('components.divider');
+        \Blade::include('components.fontawesome', 'fa');
     }
 }

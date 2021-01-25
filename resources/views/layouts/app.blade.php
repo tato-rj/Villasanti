@@ -32,6 +32,14 @@
                 line-height: 1.1;
             }
 
+            a {
+                color: inherit;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
             .font-lg {
                 font-size: 3.25rem;
             }

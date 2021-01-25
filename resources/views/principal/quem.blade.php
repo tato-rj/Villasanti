@@ -23,9 +23,7 @@
 				'mb' => 0])
 		</div>
 		<div class="col-lg-4 col-md-4 col-12 row pt-2 pb-4 pl-4">
-			<div class="col-12 bg-align-center" style="background-image: url({{asset('images/backgrounds/banner-color.jpg')}});">
-				{{-- <div class="h-100 w-100 bg-primary opacity-8 position-absolute" style="left: 0"></div> --}}
-			</div>
+			<div class="col-12 bg-align-center" style="background-image: url({{asset('images/backgrounds/banner.jpg')}});"></div>
 		</div>
 	</div>
 </section>
