@@ -1,6 +1,9 @@
-<footer class="bg-primary">
-	<div class="container py-4">
+<footer>
+	<div class="bg-align-center position-relative" style="background-image: url({{asset('images/backgrounds/columns.jpg')}}); height: 400px">
+		<div class="h-100 w-100 bg-primary opacity-8 position-absolute" style="left: 0"></div>
+		<div class="container py-4">
 
+		</div>
 	</div>
 	<div class="p-2 d-flex bg-primary-dark">
 		<div class="container">
