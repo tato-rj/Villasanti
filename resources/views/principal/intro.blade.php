@@ -1,7 +1,7 @@
 <section class="container mb-6">
 	<div class="row">
 		<div class="col-lg-4 col-md-6 col-12 order-lg-1 order-md-1 order-2 mb-4">
-			<img class="w-100 p-" src="{{asset('images/backgrounds/principal.jpg')}}">
+			<img class="w-100" src="{{asset('images/hilton/principal.jpg')}}">
 		</div>
 		<div class="col-lg-8 col-md-6 col-12 d-flex align-items-center order-lg-2 order-md-2 order-1 mb-4">
 			<div>
@@ -11,7 +11,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.</p>
 				<p class="text-muted">- Hilton Villasanti, Sócio Fundador</p>
-				<img style="width: 280px" src="{{asset('images/backgrounds/signature.jpg')}}">
+				<img style="width: 280px" src="{{asset('images/hilton/signature.jpg')}}">
 			</div>
 		</div>
 	</div>
