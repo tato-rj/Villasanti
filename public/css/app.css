@@ -16827,6 +16827,10 @@ a.text-dark:focus {
   background-color: #071d3d !important;
 }
 
+.bg-primary-light {
+  background-color: #0e3a79 !important;
+}
+
 .text-primary {
   color: #09244b !important;
 }

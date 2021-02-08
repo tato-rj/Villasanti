@@ -12,8 +12,13 @@
         <li class="nav-item">
           <a class="nav-link p-4" href="">Principal</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link p-4" href="">Áreas de atuação</a>
+        <li class="nav-item position-relative">
+          <a class="nav-link dropdown-toggle p-4" data-toggle="dropdown" href="#">Nossas práticas</a>
+          <div class="dropdown-menu bg-primary-light rounded-0 border-0 animate__animated animate__fadeInUp animate__faster">
+            <a class="dropdown-item text-white py-2" href="#">Processos Judiciais e as Empresas</a>
+            <a class="dropdown-item text-white py-2" href="#">Assessoria e Consultoria Empresarial</a>
+            <a class="dropdown-item text-white py-2" href="#">Para Negócios</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link p-4" href="">Fundador</a>

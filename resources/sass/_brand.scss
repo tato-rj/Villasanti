@@ -8,6 +8,10 @@
 	background-color: darken($primary-color, 3%)!important;
 }
 
+.bg-primary-light {
+	background-color: $primary-color-light !important;
+}
+
 .text-primary {
 	color: $primary-color!important;
 }
