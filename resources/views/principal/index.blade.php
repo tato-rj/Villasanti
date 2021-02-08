@@ -62,4 +62,18 @@ function moveText(id, scrollTop)
 }
 
 </script>
+
+<script type="text/javascript">
+var bg = 1;
+$('#switch-bg').click(function() {
+  let url = $(this).data('bg'+bg);
+  $('#lead-bg').css('background-image', 'url('+url+')');
+
+  if (bg == 3) {
+    bg = 1;
+  } else {
+    bg += 1;
+  }
+});
+</script>
 @endpush
