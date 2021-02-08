@@ -6,64 +6,32 @@ class Testimonials
 {
 	protected $testimonials = [
 		[
-			'author' => 'BE CAPITAL', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'author' => 'Paulo Paiva, CEO da BE CAPITAL', 
+			'content' => 'A Villasanti Advocacia nos assessorou em um momento crucial no desenvolvimento da nossa empresa para atuação no mercado de capitais. Recomendo sem pensar duas vezes!'
 		],
 		[
-			'author' => '+O2', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'GESTMAIS', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'author' => 'Gustavo Lopes, CEO do Ensino+O2', 
+			'content' => 'O advogado Hilton Villasanti foi muito importante para nos auxiliar nos planejamentos tributários, na utilização de ferramentas de BPO, etc. O trabalho dele vai além dos serviços jurídicos: é uma consultoria empresarial. Recomendo.'
 		],
 		[
 			'author' => 'OXIGENE-SE', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'content' => 'Contamos com os serviços do advogado Hilton Villasanti em nossa rotina diária, o que nos deu segurança para tomar melhores decisões, sobretudo sobre planejamento de negócios.'
 		],
 		[
 			'author' => 'CULTIVA', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'content' => 'Profissional excepcional que trabalha muito atento às necessidades do meu negócio. Sua experiência e sua visão perspicaz transmitem uma confiança indispensável para a Cultiva. Uma grata parceria comercial que desejo que se perpetue por muitos anos.'
 		],
 		[
-			'author' => 'ABRC', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'GRUPO MATTA', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'CLINICAR', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'CASA RONALD', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'SUPERMED', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'author' => 'Marcia Fernandes, ABRC', 
+			'content' => 'Excelente Advogado! Condutas extremamente profissionais, claras, objetivas e com resultados positivos. Super recomendo!'
 		],
 		[
 			'author' => 'PRESENT POINT', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'content' => 'O Dr. Villasanti participou de todo o processo desde o planejamento até o acompanhamento dos resultados da empresa. Sem dúvida foi uma escolha de sucesso!'
 		],
 		[
 			'author' => 'TECNOTOOLS', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'ENGEVIX', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'CULTURA FLOR', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-		],
-		[
-			'author' => 'FESTEJA KIDS', 
-			'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'content' => 'Sem dúvida a melhor assessoria para tratar do planejamento da nossa empresa e retomada dos negócios.'
 		]
 	];
 

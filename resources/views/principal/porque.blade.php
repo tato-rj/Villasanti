@@ -1,5 +1,5 @@
 <section class="container mb-6">
-	@title(['text' => 'Porque nos contratar?'])
+	@include('principal.components.title', ['text' => 'Porque nos contratar?'])
 	<div class="row">
 		@include('principal.components.porque-card', [
 			'title' => 'Exclusividade', 

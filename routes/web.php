@@ -11,8 +11,38 @@
 |
 */
 
+Route::get('dev', function() {
+	return view('dev');
+})->name('dev');
+
+Route::get('go', function() {
+	session(['dev' => true]);
+
+	return redirect(route('principal'));
+})->name('dev.go');
+
 Route::get('/', function () {
 	$testimonials = (new \App\Testimonials)->all();
 
-    return request()->has('dev') ? view('principal.index', compact('testimonials')) : view('dev');
-})->name('home');
+    return view('principal.index', compact('testimonials'));
+})->middleware('dev')->name('principal');
+
+Route::prefix('nossas-praticas')->middleware('dev')->name('praticas.')->group(function() {
+	
+	Route::get('processos-judiciais', function() {
+		return view('praticas.processos.index');
+	})->middleware('dev')->name('processos');
+
+	Route::get('assessoria-empresarial', function() {
+		return view('praticas.assessoria.index');
+	})->middleware('dev')->name('assessoria');
+
+	Route::get('negocios', function() {
+		return view('praticas.negocios.index');
+	})->middleware('dev')->name('negocios');
+
+});
+
+	Route::get('fundador', function() {
+		return view('fundador.index');
+	})->middleware('dev')->name('fundador');

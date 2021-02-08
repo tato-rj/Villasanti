@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.raw')
 
 @section('content')
 <div class="d-flex justify-content-center align-items-center h-100vh">

@@ -6,12 +6,6 @@
 
     <title>{{config('app.name')}}</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/primer.css') }}" rel="stylesheet">
 
@@ -82,11 +76,6 @@
         .dropdown-item:hover {
             background-color: transparent;
         }
-
-        footer a:not(.btn):hover {
-            color: inherit;
-            opacity: 0.6;
-        }
         @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -125,45 +114,27 @@
     @stack('header')
 </head>
 <body>
-    @include('layouts.header')
-
     @yield('content')
-
-    @include('layouts.footer')
-
+    
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
-        onMobile = function() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+        function login() {
+            var pass = prompt("Para continuar, por favor entre com a sua senha");
+
+            if (pass == "zelda") {
+                window.location.href = "{{route('dev.go')}}";
+            } else if (pass == '' || pass === null) {
+                return;
+            } else {
+                console.log(pass);
+                alert('Senha incorreta.');
+            }
         }
 
-        $(document).ready(function() {
-            $('button.navbar-toggler').on('click', function () {
-                let $hamburger = $('.animated-icon2');
-
-                $hamburger.toggleClass('open');
-
-                if ($hamburger.hasClass('open')) {
-                    $('nav.navbar').not('.navbar-fixed').addClass('bg-primary');
-                } else {
-                    setTimeout(function() {
-                        $('nav.navbar').not('.navbar-fixed').delay(200).removeClass('bg-primary');
-                    }, 200);
-                }
-            });
-        });
     </script>
 
-    <script type="text/javascript">
-        $('.nav-item').on('show.bs.dropdown', function (event) {
-          $(event.relatedTarget).addClass('bg-primary-light');
-        });
-
-        $('.nav-item').on('hide.bs.dropdown', function (event) {
-            $(event.relatedTarget).removeClass('bg-primary-light');
-        });
-    </script>
     @stack('scripts')
 </body>
 </html>

@@ -16831,6 +16831,10 @@ a.text-dark:focus {
   background-color: #0e3a79 !important;
 }
 
+.bg-primary-lightest {
+  background-color: #11458f !important;
+}
+
 .text-primary {
   color: #09244b !important;
 }
@@ -17080,6 +17084,10 @@ a.text-dark:focus {
 
 .navbar .nav-item:hover {
   background-color: #0e3a79 !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #11458f !important;
 }
 
 .btn {

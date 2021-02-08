@@ -1,5 +1,5 @@
 <section class="container mb-6">
-	@title(['text' => 'Nossas práticas'])
+	@include('principal.components.title', ['text' => 'Nossas práticas'])
 	<div class="row">
 		@include('principal.components.porque-card', [
 			'title' => 'PROCESSOS JUDICIAIS PARA EMPRESAS', 

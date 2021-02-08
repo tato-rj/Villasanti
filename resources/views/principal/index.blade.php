@@ -1,17 +1,19 @@
 @extends('layouts.app')
 
 @push('header')
-
 @endpush
 
 @section('content')
 
-@include('principal.lead')
-@include('principal.intro')
-@include('principal.porque')
-{{-- @include('principal.praticas') --}}
-@include('principal.quem')
-@include('principal.testimonials')
+  @include('principal.lead')
+  @include('principal.intro')
+  @include('principal.porque')
+  @include('principal.quem')
+  @include('principal.testimonials')
+
+  <div class="container">
+    @include('sections.cta')
+  </div>
 
 @endsection
 
@@ -76,4 +78,27 @@ $('#switch-bg').click(function() {
   }
 });
 </script>
+
+    <script type="text/javascript">
+        var firstScreen = $('#lead-bg').offset().top + $('#lead-bg').height();
+        var $menu = $('nav.navbar')
+                        .clone()
+                        .hide()
+                        .appendTo('body')
+                        .addClass('navbar-fixed shadow-sm bg-primary animate__fadeInDown')
+                        .removeClass('position-absolute');
+
+        $('nav.navbar-fixed .navbar-brand img.logo-lg').remove();
+        $('nav.navbar-fixed .navbar-brand img.logo-sm').removeClass('d-sm-none');
+
+        $(window).scroll(function() {
+            let scrollTop = $(this).scrollTop();
+
+            if (scrollTop > firstScreen) {
+                $menu.show();
+            } else {
+                $menu.fadeOut('fast');
+            }
+        });
+    </script>
 @endpush

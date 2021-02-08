@@ -1,5 +1,5 @@
 <section class="container mb-6">
-	@title(['text' => 'Para quem fazemos a diferença'])
+	@include('principal.components.title', ['text' => 'Para quem fazemos a diferença'])
 	<div class="row pt-4">
 		<div class="col-lg-8 col-md-8 col-12 text-right">
 			@include('principal.components.quem-row', [
