@@ -33,19 +33,46 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Roboto:wght@100;300&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <style type="text/css">
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/roboto/Roboto-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant-Regular';
+    src: url(../fonts/cormorant/CormorantGaramond-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CormorantSemiBold';
+    src: url(../fonts/cormorant/CormorantGaramond-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
         body {
             font-size: 102%;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
+            font-family: 'Roboto-Light', sans-serif;
         }
 
         h1, h2, .font-serif {
-            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Cormorant-Regular', serif;
         }
 
         h1, h2 , h3, h4 {
@@ -65,11 +92,11 @@
         }
 
         .font-thin {
-            font-weight: 100;
+            font-family: 'RobotoThin', sans-serif;
         }
 
         .font-600 {
-            font-weight: 600;
+            font-family: 'Cormorant-SemiBold', serif;
         }
 
         .btn-lg {

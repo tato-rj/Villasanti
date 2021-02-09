@@ -25,24 +25,24 @@ Route::get('/', function () {
 	$testimonials = (new \App\Testimonials)->all();
 
     return view('principal.index', compact('testimonials'));
-})->middleware('dev')->name('principal');
+})->name('principal');
 
-Route::prefix('nossas-praticas')->middleware('dev')->name('praticas.')->group(function() {
+Route::prefix('nossas-praticas')->name('praticas.')->group(function() {
 	
 	Route::get('processos-judiciais', function() {
 		return view('praticas.processos.index');
-	})->middleware('dev')->name('processos');
+	})->name('processos');
 
 	Route::get('assessoria-empresarial', function() {
 		return view('praticas.assessoria.index');
-	})->middleware('dev')->name('assessoria');
+	})->name('assessoria');
 
 	Route::get('negocios', function() {
 		return view('praticas.negocios.index');
-	})->middleware('dev')->name('negocios');
+	})->name('negocios');
 
 });
 
 	Route::get('fundador', function() {
 		return view('fundador.index');
-	})->middleware('dev')->name('fundador');
+	})->name('fundador');
