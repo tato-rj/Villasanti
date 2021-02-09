@@ -26,7 +26,7 @@
           <a class="nav-link p-4" href="{{route('fundador')}}">Fundador</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn-secondary p-4" href="">Contato</a>
+          <a class="nav-link btn-secondary p-4" href="{{mailto('Contato pelo website')}}">Contato</a>
         </li>
       </ul>
     </div>

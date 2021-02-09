@@ -4,7 +4,7 @@
 			@foreach($testimonials as $testimonial)
 			<div class="swiper-slide px-4">
 				<div class="w-100">
-					<p class="">{{$testimonial['content']}}</p>
+					<p class="testimonial-text">{{$testimonial['content']}}</p>
 					<footer class="blockquote-footer font-serif text-right">{{$testimonial['author']}}</footer>
 				</div>
 			</div>

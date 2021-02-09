@@ -11,7 +11,7 @@ class Testimonials
 		],
 		[
 			'author' => 'Gustavo Lopes, CEO do Ensino+O2', 
-			'content' => 'O advogado Hilton Villasanti foi muito importante para nos auxiliar nos planejamentos tributários, na utilização de ferramentas de BPO, etc. O trabalho dele vai além dos serviços jurídicos: é uma consultoria empresarial. Recomendo.'
+			'content' => 'É fundamental que pequenas e médias empresas contem com um olhar externo para poderem se organizar melhor. O advogado Hilton Villasanti foi muito importante para nos auxiliar nos planejamentos tributários, na utilização de ferramentas de BPO, etc. O trabalho dele vai além dos serviços jurídicos: é uma consultoria empresarial. Recomendo.'
 		],
 		[
 			'author' => 'OXIGENE-SE', 
@@ -31,7 +31,11 @@ class Testimonials
 		],
 		[
 			'author' => 'TECNOTOOLS', 
-			'content' => 'Sem dúvida a melhor assessoria para tratar do planejamento da nossa empresa e retomada dos negócios.'
+			'content' => 'Sem dúvida a melhor assessoria para tratar do planejamento da nossa empresa e retomada dos negócios.',
+		],
+		[
+			'author' => 'Grupo Matta',
+			'content' => 'Hilton e toda equipe do Villasanti Advocacia prestam um excelente serviço jurídico a minha empresa. Com muito cuidado e zelo com os casos analisados, sinto que a relação com meus clientes e com a minha empresa não poderiam estar em melhores mãos. Profissional competente e de qualidade o qual indico a todas as empresas e clientes que buscam sempre o melhor para seus negócios e relações jurídicas em geral.'
 		]
 	];
 

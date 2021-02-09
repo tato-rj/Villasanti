@@ -8,7 +8,11 @@
 					<p class="opacity-6">Advocacia simplificada, ágil e livre de morosidade. Comunicação acessível e transparente. Você sempre saberá o que está acontecendo.</p>
 				</div>
 				<div class="col-12 text-center mb-4">
-					<a href="" class="btn btn-lg btn-secondary">Entre em contato com a nossa equipe</a>
+					<a href="{{mailto('Contato pelo website')}}" class="btn btn-lg btn-secondary mb-4">Entre em contato com a nossa equipe</a>
+					<div class="d-flex justify-content-center">
+						<a href="{{social('instagram')}}" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'instagram', 'size' => 'lg'])</a>
+						<a href="{{social('linkedin')}}" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'linkedin', 'size' => 'lg'])</a>
+					</div>
 				</div>
 				<div class="col-12 mx-auto text-center">
 		            <a class="d-block d-md-inline" href="{{route('praticas.processos')}}">Processos Judiciais e as Empresas</a> <span class="mx-2 d-none d-md-inline">|</span>
@@ -23,8 +27,8 @@
 			<div class="d-flex d-apart text-white opacity-6">
 				<div><small>© {{now()->year}} Todos os direitos reservados.</small></div>
 				<div class="d-flex">
-					<a href="" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'instagram'])</a>
-					<a href="" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'linkedin'])</a>
+					<a href="{{social('instagram')}}" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'instagram'])</a>
+					<a href="{{social('linkedin')}}" target="_blank" class="t-2">@fa(['fa_type' => 'b', 'icon' => 'linkedin'])</a>
 				</div>
 			</div>
 		</div>

@@ -83,10 +83,11 @@
             background-color: transparent;
         }
 
-        footer a:not(.btn):hover {
+        footer a:not(.btn):hover, #lead-bg a:not(.btn):hover {
             color: inherit;
             opacity: 0.6;
         }
+
         @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;

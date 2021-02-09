@@ -18,8 +18,11 @@
 @endsection
 
 @push('scripts')
+<script src="{{ asset('js/vendor/clamp.min.js') }}"></script>
 <script type="text/javascript">
-
+// $('.testimonial-text').each(function() {
+//   $clamp(this, {clamp: 6});
+// });
   var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       width: 326,
