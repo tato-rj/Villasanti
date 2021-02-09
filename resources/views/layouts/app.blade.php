@@ -157,11 +157,12 @@
     </script>
 
     <script type="text/javascript">
-        $('.nav-item').on('show.bs.dropdown', function (event) {
+        $(document).on('show.bs.dropdown', '.nav-item', function (event) {
+            console.log($(event.relatedTarget));
           $(event.relatedTarget).addClass('bg-primary-light');
         });
 
-        $('.nav-item').on('hide.bs.dropdown', function (event) {
+        $(document).on('hide.bs.dropdown', '.nav-item', function (event) {
             $(event.relatedTarget).removeClass('bg-primary-light');
         });
     </script>
