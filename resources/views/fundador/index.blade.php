@@ -36,6 +36,8 @@
 				<ul class="mb-4">
 					<li>Direito para Startups e empreendedores pela FGV-RJ</li>
 					<li>Direito Processual Civil pela PUC-RJ</li>
+					<li>Gestão de Projetos aplicada às Organizações pelo Saneamento Integral-RJ</li>
+					<li>Liderança Sociocrática pelo SoLT Brasil</li>
 				</ul>
 			</div>
 		</div>
