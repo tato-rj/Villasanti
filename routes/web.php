@@ -22,6 +22,7 @@ Route::get('go', function() {
 })->name('dev.go');
 
 Route::get('/', function () {
+	return phpinfo();
 	$testimonials = (new \App\Testimonials)->all();
 
     return view('principal.index', compact('testimonials'));
