@@ -23,7 +23,7 @@ Route::get('go', function() {
 
 Route::get('/', function () {
 	$testimonials = (new \App\Testimonials)->all();
-return $testimonials;
+
     return view('principal.index', compact('testimonials'));
 })->name('principal');
 
