@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4 col-md-6 col-10 mx-auto order-lg-2 order-md-2 order-1">
-			<img class="w-100 mb-5" src="{{asset('images/hilton/fundador.jpg')}}">
+			<img class="w-100 mb-5" src="{{asset('images/hilton/fundador-2.jpg')}}">
 		</div>
 	</div>
 	@include('sections.cta')
